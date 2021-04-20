@@ -32,8 +32,8 @@ variable "cluster_machine_type" {
 
 variable "flavor" {
   type        = string
-  description = "(Deprecated, use VPC) The machine type that will be provisioned for classic infrastructure"
-  default     = "b3c.4x16"
+  description = "The machine type that will be provisioned for VPC infrastructure"
+  default     = "bx2.4x16"
 }
 
 variable "vlan_datacenter" {
